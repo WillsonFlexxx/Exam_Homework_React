@@ -11,12 +11,12 @@ const Home = () => {
             <div className="container">
                 <div className={style.intro}>
                     <div className={style.intro_left}>
-                        <h1 className={style.intro_title}>Building your vision, creating your legacy</h1>
+                        <h1 className={style.intro_title}>СУВАР НА СВЯЗИ!</h1>
                         <p className={style.intro_text}>
-                        Our experienced team of builders will work with you every step of the way to create the project of your dreams. From planning to completion, we are committed to providing quality workmanship and attention to detail.
+                        Построим дом под ключ с последующим благоустройством. Осуществляем ремонт и реконструкции зданий, технадзор и сопровождение объектов, а также проектирование любой сложности. Мы строим будущее, мы строим мечту
                         </p>
                         <NavLink className={style.intro_btn} to={"/"}>
-                            Explore
+                            Подробнее!
                         </NavLink>
                     </div>
                     <img src={crane} alt="" className="intro_right" />

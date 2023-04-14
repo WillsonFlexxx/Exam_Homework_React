@@ -1,5 +1,6 @@
 header {
   top: 0px;
+  height: 0px;
   width: 1274px;
   padding: 40px 0px;
   display: flex;
@@ -9,6 +10,7 @@ header {
   z-index: 2;
   left: 50%;
   transform: translateX(-50%);
+  background-color: #005EEA;
 }
 
 .btns_header {
@@ -34,14 +36,14 @@ header {
 }
 
 .cart_icon {
-  width: 30px;
+  width: 40px;
 }
 
 .ikon {
   cursor: pointer;
 }
 
-.logo {
+.logotype {
   font-size: 24px;
   font-weight: 700;
   text-decoration: underline;

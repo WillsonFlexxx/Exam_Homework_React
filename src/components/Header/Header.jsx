@@ -6,21 +6,21 @@ const Header = ({ setActive }) => {
   return (
     <header>
       <NavLink to={"/"}>
-        <div className={style.logo}>WeAreBuilding</div>
+        <div className={style.logotype}>#СУВАРСТРОИТ</div>
       </NavLink>
       <nav className={style.nav}>
         <NavLink className={style.navlink} to={"/"}>
-          Main
+          Важное
         </NavLink>
         <NavLink className={style.navlink} to={"#catalog"}>
-          Catalog
+          Новое
         </NavLink>
         <NavLink className={style.navlink} to={"#catalog"}>
-          % Sale
+          Уникальное!
         </NavLink>
       </nav>
       <div className={style.btns_header}>
-        <div className={style.ikon} onClick={() => setActive(true)}>
+        <div className={style.icon} onClick={() => setActive(true)}>
           <img className={style.cart_icon} src={cart} alt="" />
         </div>
       </div>

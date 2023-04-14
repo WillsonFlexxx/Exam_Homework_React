@@ -6,7 +6,7 @@ const Footer = ({ setActive }) => {
   return (
     <footer>
       <NavLink to={"/"}>
-        <div className={style.logo}>WeAreBuilding</div>
+        <div className={style.logo}>ФУТЕР</div>
       </NavLink>
       <nav className={style.nav}>
         <NavLink className={style.navlink} to={"/"}>

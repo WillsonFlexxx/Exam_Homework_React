@@ -12,7 +12,7 @@
 
 .cat_input {
     padding: 10px 20px;
-    background-color: #ED7C35;
+    background-color: #005EEA;
     color: #fff;
     font-weight: 700;
     width: 200px;
@@ -50,7 +50,7 @@
     border-radius: 5px;
     background: none;
     border: none;
-    border: 1px solid #ED7C35;
+    border: 1px solid #005EEA;
 }
 
 .ikon_search{
@@ -71,20 +71,21 @@
     display: flex;
     max-width: 300px;
     padding: 30px;
-    border: 1px solid #ED7C35;
-    border-radius: 5px;
+    border: 1px solid #005EEA;
+    border-radius: 25px;
     justify-content: space-between;
     flex-direction: column;
     gap: 30px;
     color: #000;
     font-size: 20px;
     font-weight: 500;
+    background-color: white;
+
 }
 
 .name {
     font-size: 17px;
     font-weight: 500;
-    
 }
 
 

@@ -44,7 +44,7 @@ const Catalog = () => {
         <div className={style.catalog} id={'#catalog'}>
             <div className={style.header_catalog}>
                 <h1 className={style.h1_catalog}>
-                    Catalog
+                    Каталог
                 </h1>
                 <div className={style.tovars_filter}>
                 <div className={style.input}>

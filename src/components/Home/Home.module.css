@@ -1,0 +1,41 @@
+.intro {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 250px;
+    align-items: center;
+}
+
+.intro_left {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 600px;
+}
+
+.intro_title {
+    font-size: 45px;
+    margin: 0;
+    color: #00C75B;
+    font-style: italic;
+    font-weight: 800;
+    width: 800px;
+}
+
+.intro_text {
+    margin: 0;
+    font-size: 17px;
+    line-height: 150%;
+}
+
+.intro_btn {
+    margin: 0;
+    text-decoration: none;
+    padding: 15px 100px;
+    background-color: #00C75B;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
